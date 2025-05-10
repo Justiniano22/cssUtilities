@@ -1,0 +1,52 @@
+@import './colors.css';
+
+.container{
+    padding: 8px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.items-end{
+    align-items: flex-end;
+}
+
+.item{
+    width: 90px;
+    height: 90px;
+    background-color: var(--naranja);
+}
+
+.item:hover{
+    background-color: var(--negro);
+}
+
+.margin-sm{
+    margin-right: 8px;
+}
+
+.gap-md{
+    gap: 16px;
+}
+

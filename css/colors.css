@@ -1,0 +1,18 @@
+:root{
+    --naranja: #AD4119;
+    --blanco: #FFFFFF;
+    --azul: blue;
+    --negro: black;
+}
+
+.bg-black{
+    background-color: var(--naranja);
+}
+
+.text-black{
+    color: var(--negro);
+}
+
+.text-white{
+    color: var(--blanco);
+}
